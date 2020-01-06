@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./index.scss">
+  <title>Document</title>
+</head>
+<body>
+  <h2>当前总人数：<span id="onlineCount">0</span>人</h2>
+  <h2>其他用户ID：</h2>
+  <ul id="onlineList"></ul>
+  <h2>我的ID：<span id="myId"></span></h2>
+
+  <hr>
+
+  <div id="chatContainer">
+    <h2>文字交流区</h2>
+  </div>
+  <input type="text" placeholder="输入聊天内容回车" id="chatInput">
+
+  <hr>
+
+  <div id="fileContainer">
+    <h2>文件共享区</h2>
+  </div>
+  <input type="file" id="fileInput">
+
+  <hr>
+
+  <h2>视频区</h2>
+  <div>
+    <input type="text" placeholder="房间名称(输入test)" id="roomNumberInput" value="test">
+    <button id="callButton">进入会议</button>
+    <button id="leaveButton">退出会议</button>
+  </div>
+
+  <video autoplay id="myVideo"></video>
+  <div id="otherVideosContainer"></div>
+
+  <script src="./index.ts"></script>
+</body>
+</html>

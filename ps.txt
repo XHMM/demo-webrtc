@@ -1,0 +1,2 @@
+chrome://flags/#unsafely-treat-insecure-origin-as-secure
+chrome://flags/#allow-insecure-localhost  允许信任自签名证书

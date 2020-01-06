@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noEmit": true,
+    "lib": ["dom", "es6"],
+    "alwaysStrict": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

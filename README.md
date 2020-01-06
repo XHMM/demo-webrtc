@@ -1,0 +1,1 @@
+webRTC小demo，使用socketio+peerjs。使用方式：在client目录下运行`npm run build`，然后在server目录下运行`npm run start`，然后在浏览器访问 https://localhost:8080即可，然后可以打开新的tab再次输入该网站。注：如果要使用摄像头，由于一台电脑下可能不允许公用摄像头，所以你得在局域网下用别的电脑访问，

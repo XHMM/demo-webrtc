@@ -1,0 +1,5 @@
+.idea
+client/.cache
+client/dist
+server/parcelBuild
+node_modules/
